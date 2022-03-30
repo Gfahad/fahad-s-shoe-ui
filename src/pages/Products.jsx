@@ -8,7 +8,7 @@ function Products() {
   const [productsFILTERED, setProductsFILTERED] = React.useState([]);
 
   React.useEffect(() => {
-    fetch("http://localhost:8000/products/")
+    fetch("https://fahad-shoes-service.herokuapp.com/products/")
       .then((response) => response.json())
       .then(setProductsALL);
   }, []);
