@@ -1,0 +1,116 @@
+
+
+   
+[{"shoes": [{
+    "title":"AdidasX",
+    "img":"images/AdidasX.jpg",
+    "description":"The hero shoot cleat with soft feel",
+    "price": "$180"
+}]
+},
+
+{"shoes": [{
+    "title":"Copa",
+    "img":"images/Copa.jpg",
+    "description":" water proof stretcher cleat for all seasons",
+    "price": "$200"
+}]
+},
+
+{"shoes": [{
+    "title":"Mercurial",
+    "img":"images/Mercurial.jpg",
+    "description":"The hero shoot cleat with soft feel",
+    "price": "$600"
+}]
+},
+
+{"shoes": [{
+    "title":"Future",
+    "img":"images/Future.jpg",
+    "description":" This is important for providing protection for linemen and other players who are involved in frequent collisions and piles",
+    "price": "$270"
+}]
+},
+
+{"shoes": [{
+    "title":"Phantom",
+    "img":"images/Phantom.jpg",
+    "description":"They are made with premium leather and are precision designed to give great command of the ball.",
+    "price": "$270"
+}]
+},
+
+{"shoes": [{
+    "title":"PhantomGT",
+    "img":"images/PhantomGT.jpg",
+    "description":" These cleats are designed to help you unleash your inner speed-demon.",
+    "price": "$370"
+}]
+},
+
+{"shoes": [{
+    "title":"Fisher",
+    "img":"images/fisher.jpeg",
+    "description":"The heat bender",
+    "price": "$230"
+}]
+},
+
+{"shoes": [{
+    "title":"Predator",
+    "img":"images/Predator.jpg",
+    "description":" Everything about these boots gives you the leading advantage in ball control ",
+    "price": "$400"
+}]
+},
+
+{"shoes": [{
+    "title":"Superfly",
+    "img":"images/Superfly.jpg",
+    "description":"The player with powerful shooting ability will also benefit from the sturdy footing provided by these boots.",
+    "price": "$410"
+}]
+},
+
+{"shoes": [{
+    "title":"Pulse",
+    "img":"images/Pulse.jpg",
+    "description":"For  agile and disruptive players.",
+    "price": "$160"
+}]
+},
+
+{"shoes": [{
+    "title":"Ultra",
+    "img":"images/Ultra.jpg",
+    "description":"If you’re looking to up your game with some fancy footwork",
+    "price": "$600"
+}]
+},
+
+{"shoes": [{
+    "title":"Latto-black",
+    "img":"iimages/latto-black.jpeg",
+    "description":"Controlskin for maximum ball control in any weather.",
+    "price": "$190"
+}]
+},
+
+{"shoes": [{
+    "title":"Sharp-shooter",
+    "img":"images/sharp-shooter.jpeg",
+    "description":"The rubber sole plate is less taxing on joints, making artificial turf shoes more comfortable for older players.",
+    "price": "$170"
+}]
+},
+
+{"shoes": [{
+    "title":"Vision-elite",
+    "img":"images/vision-elite.jpeg",
+    "description":"The defenders favorites",
+    "price": "$120"
+}]
+}]
+
+export default information;

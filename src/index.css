@@ -1,0 +1,269 @@
+/* UTILITIES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: cursive;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  height: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+
+/* NAVBAR STYLING STARTS */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #343a3f;
+  color: #fff;
+}
+.nav-links a {
+  color: #fff;
+}
+/* LOGO */
+.logo {
+  font-size: 32px;
+}
+/* NAVBAR MENU */
+.menu {
+  display: flex;
+  gap: 1em;
+  font-size: 18px;
+}
+.menu li:hover {
+  background-color: #4c9e9e;
+  border-radius: 5px;
+  transition: 0.3s ease;
+}
+.menu li {
+  padding: 5px 14px;
+}
+
+/****HERO IMAGE**/
+.layout-main {
+  width: 100%;
+  height: 100%;
+}
+
+.hero__wrapper {
+  display: flex;
+  /* justify-content: center; */
+  height: auto;
+}
+
+.hero__img-container {
+  display: flex;
+  /* justify-content: center; */
+  /* background-image: url("../public/images/ronaldo.jpeg"); */
+  background-size: cover;
+  width: auto;
+  height: auto;
+  /* align-items: center; */
+  /* flex-flow: column nowrap; */
+  color: white;
+  /* position: relative; */
+  margin-bottom: 0.5em;
+}
+.homeImage {
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  /* position: absolute; */
+}
+/* //testing */
+
+.products {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 80vh;
+  /* background-image: url("../public/images/ronaldo.jpeg"); */
+  width: 100%;
+  background-size: cover;
+}
+
+.shoe-wrapper {
+  padding: 10px;
+}
+
+.shoe-container {
+  background-color: rgb(221, 221, 235);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  padding: 5px 0;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.shoe-container:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
+
+.shoe-image {
+  width: 100px;
+  height: 100px;
+}
+
+@media (min-width: 768px) {
+  .shoe-image {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.shoe-description {
+  padding: 0 10px;
+  flex-grow: 2;
+}
+
+/* testing contact */
+
+.card {
+  width: 70%;
+  padding: 30px 90px 90px 90px;
+  border: 6px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 20px 20px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 50px;
+  position: relative;
+  padding-bottom: 10vh;
+  padding-top: 10vh;
+  margin: auto;
+}
+
+.card h2 {
+  color: rgba(0, 0, 0, 0.3);
+  font-size: 60px;
+  text-transform: uppercase;
+}
+
+.card .row {
+  position: relative;
+  width: 100%;
+  display: grid;
+  grid: auto / auto auto;
+  grid-template-columns: repeat(auto-fit, minmax(40%, 1fr));
+  grid-gap: 30px;
+}
+
+.card .row .col {
+  position: relative;
+  width: 100%;
+  margin: 30px 20px 40px 0;
+  transition: 0.5s;
+}
+
+.card .row .form-group {
+  position: relative;
+  width: 100%;
+  height: 40px;
+  color: #ffffff;
+}
+
+.card .row .form-group input,
+.card .row .form-group textarea {
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  background: transparent;
+  outline: none;
+  font-size: 24px;
+  padding: 10px 0 10px 20px;
+  border: 5px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
+  color: black;
+  border-radius: 50px;
+}
+
+.card .row .form-group label {
+  line-height: 40px;
+  color: black;
+  font-size: 24px;
+  margin: 0 0 0 30px;
+  display: block;
+  pointer-events: none;
+}
+
+.row .col:nth-child(6) {
+  margin-top: 64px;
+}
+
+.card .row .form-group input:focus,
+.card .row .form-group textarea:focus {
+  border: 5px solid black;
+  transition: all 0.5s;
+}
+
+.card .row input[type="submit"] {
+  border: 5px solid rgba(0, 0, 0, 0.3);
+  box-shadow: 10px 10px 0 rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  height: 100%;
+  width: 50%;
+  cursor: pointer;
+  outline: none;
+  background: transparent;
+  text-transform: uppercase;
+  color: black;
+  line-height: 40px;
+  font-size: 24px;
+  font-weight: 700;
+  border-radius: 45px;
+  transition: all 0.4s;
+}
+
+.card .row input[type="submit"]:hover {
+  border: 5px solid rgba(255, 255, 255, 1);
+  color: black;
+  transition: all 0.4s;
+}
+
+@media screen and (max-width: 900px) {
+  .card .row {
+    grid-template-columns: repeat(auto-fit, minmax(70%, 1fr));
+  }
+
+  .card {
+    padding: 20px;
+  }
+
+  .card h2 {
+    font-size: 34px;
+  }
+
+  .card .row input[type="submit"] {
+    width: 100%;
+  }
+}
+
+/*****FOOTER******/
+footer {
+  background-color: #343a3f;
+  min-height: 10vh;
+  display: block;
+  width: 100%;
+  height: 20vh;
+  position: relative;
+  bottom: 0;
+  color: white;
+  text-align: center;
+}
+svg {
+  color: white;
+}
